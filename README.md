@@ -12,4 +12,4 @@ programas aqui mostrados foram escritos e criados para ele.
     nasm -f elf64 nome_arquivo.asm
 
 #### Vamos criar um executável
-    ld -s -o hello hello.o
+    ld -s -o nomeExecutavel nome_arquivo.o
