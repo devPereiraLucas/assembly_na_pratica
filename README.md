@@ -8,8 +8,9 @@ programas aqui mostrados foram escritos e criados para ele.
 
 ### 2 - Compilando o código e Linkeditando
 
-#### Vamos transformar o programa para linguagem de maquina
+#### Vamos transformar o programa para linguagem de maquina (utilizando a formatação para 64bits)
     nasm -f elf64 nome_arquivo.asm
-
+#### Ou utilizando a formatação para 32bits
+    nasm -f elf32 nome_arquivo.asm
 #### Vamos criar um executável
     ld -s -o nomeExecutavel nome_arquivo.o
