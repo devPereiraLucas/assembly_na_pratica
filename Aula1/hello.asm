@@ -1,6 +1,6 @@
 section .data
 ; Para definir apontamentos para o programa
-    msg db 'Hello World!', 0xA
+    msg db 0x28, 'Hello World!', 0x29, 0xA ; estamos envolvendo a frase Hello World com ( ), para isso usamos o codigo hexadecimal: 0x28 e 0x29 segundo a tabela ASCII
     tam equ $- msg
     
 section .text
