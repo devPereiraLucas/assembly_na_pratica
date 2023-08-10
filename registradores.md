@@ -16,3 +16,30 @@ Os registradores são uma parte fundamental do computador. Eles são usados para
 | rdi | edi | Em operações com blocos de dados, ou strings, esse registrador é usado para apontar para o endereço de origem de onde os dados serão lidos |
 
 ##### *Os registradores de 32bits recebem a inicial **E**, já os registradores de 64bits recebem a iniciar **R**
+
+#### Alocação de espaço em memoria para dadoos inicializados
+
+| Definição | Valor |	Espaço em memoria |
+| DB	    | Define Byte	    | allocates 1 byte |
+| DW	    | Define Word	    | allocates 2 bytes |
+| DD	    | Define Doubleword	| allocates 4 bytes |
+| DQ	    | Define Quadword	| allocates 8 bytes |
+| DT	    | Define Ten Bytes  | allocates 10 bytes |
+
+##### Exemplos
+
+| choice		    | DB	| 'y' | 
+| number		    | DW	| 12345 | 
+| neg_number	    | DW	| -12345 | 
+| big_number	    | DQ	| 123456789 | 
+| real_number1	    | DD	| 1.234 | 
+| real_number2	    | DQ	| 123.456 |
+
+#### Alocação de espaço em memoria para dadoos não inicializados
+
+| Definição | Valor |
+| RESB	    | Reserva Byte	    |
+| RESW	    | Reserva Word	    |
+| RESD	    | Reserva Doubleword	|
+| RESQ	    | Reserva Quadword	|
+| REST	    | Reserva Ten Bytes  |
