@@ -20,33 +20,36 @@ Os registradores são uma parte fundamental do computador. Eles são usados para
 #### Alocação de espaço em memoria para dadoos inicializados
 
 | Definição | Valor |	Espaço em memoria |
-| DB	    | Define Byte	    | allocates 1 byte |
-| DW	    | Define Word	    | allocates 2 bytes |
-| DD	    | Define Doubleword	| allocates 4 bytes |
-| DQ	    | Define Quadword	| allocates 8 bytes |
-| DT	    | Define Ten Bytes  | allocates 10 bytes |
+| ------------- | ------------- | ------------- |
+| DB | Define Byte | allocates 1 byte |
+| DW | Define Word | allocates 2 bytes |
+| DD | Define Doubleword | allocates 4 bytes |
+| DQ | Define Quadword	| allocates 8 bytes |
+| DT | Define Ten Bytes  | allocates 10 bytes |
 
-##### Exemplos
-
-| choice		    | DB	| 'y' | 
-| number		    | DW	| 12345 | 
-| neg_number	    | DW	| -12345 | 
-| big_number	    | DQ	| 123456789 | 
-| real_number1	    | DD	| 1.234 | 
-| real_number2	    | DQ	| 123.456 |
+| Exemplo | Definição |	Valor |
+| ------------- | ------------- | ------------- |
+| choice | DB	| 'y' | 
+| number | DW	| 12345 | 
+| neg_number | DW	| -12345 | 
+| big_number | DQ	| 123456789 | 
+| real_number1 | DD	| 1.234 | 
+| real_number2 | DQ	| 123.456 |
 
 #### Alocação de espaço em memoria para dadoos não inicializados
 
 | Definição | Valor |
-| RESB	    | Reserva Byte	    |
-| RESW	    | Reserva Word	    |
-| RESD	    | Reserva Doubleword	|
-| RESQ	    | Reserva Quadword	|
-| REST	    | Reserva Ten Bytes  |
+| ------------- | ------------- |
+| RESB | Reserva Byte |
+| RESW | Reserva Word |
+| RESD | Reserva Doubleword	|
+| RESQ | Reserva Quadword	|
+| REST | Reserva Ten Bytes |
 
 #### Saltos condicionais
 
 | Instrução | Nome estendido | Condição |
+| ------------- | ------------- | ------------- |
 | JE | Jump if Equal | Pula se for igual |
 | JNE | Jump if Not Equal | Pule se não for igual |
 | JL | Jump if Less than | Pule se for menor que |
