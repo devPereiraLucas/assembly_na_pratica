@@ -43,3 +43,13 @@ Os registradores são uma parte fundamental do computador. Eles são usados para
 | RESD	    | Reserva Doubleword	|
 | RESQ	    | Reserva Quadword	|
 | REST	    | Reserva Ten Bytes  |
+
+#### Saltos condicionais
+
+| Instrução | Nome estendido | Condição |
+| JE | Jump if Equal | Pula se for igual |
+| JNE | Jump if Not Equal | Pule se não for igual |
+| JL | Jump if Less than | Pule se for menor que |
+| JG | Jump if Greater than | Pule se for maior que |
+| JLE | Jump if Less or Equal | Pule se for menor ou igual | 
+| JGE | Jump if Greater or Equal | Pule se for maior ou igual |
