@@ -64,8 +64,8 @@ Com os 'comparadores acima' conseguimos de fato fazer a comparação de bits seg
 
 | regua binaria | 32 | 16 | 8 | 4 | 2 | 1 |
 
-| Condicional| AND | OR | XOR |
-| ------------- | ------------- | ------------- |
+| Condicional | AND | OR | XOR |
+| ------------- | ------------- | ------------- | ------------- |
 | 7 | 000111 | 000111 | 000111 |
 | 5 | 000101 | 000101 | 000101 |
 | - | 000101 | 000111 | 000010 |
