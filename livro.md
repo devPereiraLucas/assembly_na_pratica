@@ -56,3 +56,17 @@ Os registradores são uma parte fundamental do computador. Eles são usados para
 | JG | Jump if Greater than | Pule se for maior que |
 | JLE | Jump if Less or Equal | Pule se for menor ou igual | 
 | JGE | Jump if Greater or Equal | Pule se for maior ou igual |
+
+
+#### AND, OR, XOR
+
+Com os 'comparadores acima' conseguimos de fato fazer a comparação de bits seguindo exemplo:
+
+| regua binaria | 32 | 16 | 8 | 4 | 2 | 1 |
+
+| Condicional| AND | OR | XOR |
+| ------------- | ------------- | ------------- |
+| 7 | 000111 | 000111 | 000111 |
+| 5 | 000101 | 000101 | 000101 |
+| - | 000101 | 000111 | 000010 |
+
